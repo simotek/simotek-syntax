@@ -4,8 +4,9 @@ A dark colored syntax theme for Atom, based off [Monokai-Seti](https://github.co
 
 ## Color palettes
 This theme supports several color palettes you can enable them by swapping a file.
+* **Simotek:** Default
 * **Seti:** Replace `styles/colors.less` with `styles/colors.seti.less`
-
+* **Monokai:** Replace `styles/colors.less` with `styles/colors.monokai.less`
 ## Languages with Expanded support
 * TBD
 
