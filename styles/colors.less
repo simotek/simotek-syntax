@@ -5,6 +5,8 @@
 @red: #F92672;
 @purple: #AE81FF;
 @orange: #FD971F;
+@magenta: #AE00AE;
+@offwhite: #CCC;
 
 
 // GUTTER
@@ -19,28 +21,39 @@
 @code-font-color: rgb(212,215,214); // default editor text
 
 // SYNTAX COLORS
-@comment: rgb(65,83,91); // comments, duhr.
+@comment: #75715E; // comments, duhr.
 @comment-bg: none; // comments, duhr.
 @comment-punc: @comment;
-@string: @blue; // 'value' of var='value', "name.png" or src="name.png"
-@constant: @red; // true of var x = true, {{}} of {{> hbs_include}}
-@variable: @green; // foo or function(foo), hbs_include of {{> hbs_include}}, http://dom.com/ of url(http://dom.com/)
-@support: @purple; // module of module.exports, color of color: rgb(0,0,0)
-@entity: @blue; // exports of module.exports, <div id= of <div id="#id">, . of .className
-@keyword: @green; // = of var a = b, if of if a = b, px of font-size: 13px;
-@storage: @yellow; // var of var a = b;
+@string: @yellow; // 'value' of var='value', "name.png" or src="name.png"
+@constant: @purple; // true of var x = true, {{}} of {{> hbs_include}}
+@variable: @orange; // foo or function(foo), hbs_include of {{> hbs_include}}, http://dom.com/ of url(http://dom.com/)
+@support: @blue; // module of module.exports, color of color: rgb(0,0,0)
+@entity: @green; // exports of module.exports, <div id= of <div id="#id">, . of .className
+@keyword: @red; // = of var a = b, if of if a = b, px of font-size: 13px;
+@storage: @red; // var of var a = b;
+@storage-type: @blue;
 @meta: @code-font-color; // none of border: none;
 @function-param: @blue;
+@class: @green;
 
 @error: @red;
+@deprecated: @purple;
 
 @regex: @string;
 
 @numeric: @red;
 @quotes: @code-font-color;
 
-@markup: @code-font-color;
 @unknown: @code-font-color;
+// Markup
+@markup: @code-font-color;
+@heading: @green;
+@underline: @yellow;
+@raw: @blue;
+@quote: @string;
+@list: @red;
+@entity: @purple;
+@link: @offwhite;
 
 // MISC COLORS
 @invisible: rgba(255,255,255,0.1);
@@ -53,12 +66,12 @@
 
 // HTML
 @tag: @blue;
-@tag-entity: @blue;
+@tag-entity: @red;
 @element-attr: @green;
-@class: @green;
 @id: @green;
 @block: @blue;
 @inline: lighten(@blue, 25%);
+@instance: @blue;
 
 @entity-function: @blue;
 @brackets: darken(@code-font-color, 30%);

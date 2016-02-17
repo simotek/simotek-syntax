@@ -40,7 +40,10 @@
 
   // var of var a = b;
   &.modifier {
-    color: @storage;
+    color: @storage-type;
+  }
+  &.type {
+    color: @storage-type;
   }
 
 }
@@ -90,6 +93,15 @@
   }
 }
 
+.invalid {
+  color: @code-font-color;
+  background-color: @error;
+}
+
+.invalid.deprecated {
+  color: @code-font-color;
+  background-color: @deprecated;
+}
 
 // INVALID TEXT
 .invalid.illegal, .invalid.deprecated {
@@ -247,8 +259,19 @@
 }
 
 // .class names in css & scss
-.source .entity.name.tag, .source .entity.other.attribute-name, .meta.tag.inline, .meta.tag.inline .entity {
+.source .entity.name.class, .entity.other.inherited-class, .entity.name.function, .source .entity.other.attribute-name, .meta.tag.inline, .meta.tag.inline .entity {
   color: @class;
+}
+.entity.name.tag {
+  color: @tag-entity;
+}
+.entity.name.instance {
+  color: @instance;
+}
+
+.variable.parameter {
+  font-style: italic;
+  color: @variable;
 }
 
   &.tag,
@@ -397,7 +420,7 @@
 
 .markup {
   &.bold {
-    color: @markup;
+    color: @heading;
     font-weight: bold;
   }
 
@@ -415,7 +438,7 @@
   }
 
   &.heading .punctuation.definition.heading {
-    color: @markup;
+    color: @heading;
   }
 
   &.inserted {
@@ -423,22 +446,35 @@
   }
 
   &.list {
-    color: @markup;
+    color: @list;
+    font-weight: bold;
   }
 
   &.quote {
-    color: @markup;
+    color: @quote;
   }
 
   &.raw.inline {
-    color: @markup;
+    color: @raw;
+  }
+  .link {
+    color: @link;
+
+    .entity {
+      color: #AE81FF;
+    }
   }
 }
 
 .source.gfm .markup {
   -webkit-font-smoothing: auto;
   &.heading {
-    color: @code-font-color;
+    color: @heading;
+    font-weight: bold;
+  }
+  &.underline {
+    color: @underline;
+    text-decoration: underline;
   }
 }
 
