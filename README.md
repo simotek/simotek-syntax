@@ -9,5 +9,10 @@ This theme supports several color palettes you can enable them by swapping a fil
 ## Languages with Expanded support
 * TBD
 
+## Font
+Rather than hard coding a font I recommend installing one of the following all screenshots were taken with the first in the list
+* [Office Code Pro](https://github.com/nathco/Office-Code-Pro)
+* [Source Code Pro](https://github.com/adobe-fonts/source-code-pro)
+
 ## Screenshots
 * TBD
