@@ -7,7 +7,7 @@
 @orange: #FD971F;
 @magenta: #AE00AE;
 @offwhite: #CCC;
-
+@white: #F8F8F0;
 
 // GUTTER
 @gutter-text: rgb(64,75,83);
@@ -18,14 +18,14 @@
 // CODE VIEW
 @code-background: rgb(21,23,24); // editor background
 // @code-font: Source Code Pro; // -recommend a font in README.md instead.
-@code-font-color: rgb(212,215,214); // default editor text
+@code-font-color: @white; // default editor text
 
 // SYNTAX COLORS
-@comment: #75715E; // comments, duhr.
+@comment: @magenta; // comments, duhr.
 @comment-bg: none; // comments, duhr.
 @comment-punc: @comment;
-@string: @yellow; // 'value' of var='value', "name.png" or src="name.png"
-@constant: @purple; // true of var x = true, {{}} of {{> hbs_include}}
+@string: @purple; // 'value' of var='value', "name.png" or src="name.png"
+@constant: @yellow; // true of var x = true, {{}} of {{> hbs_include}}
 @variable: @orange; // foo or function(foo), hbs_include of {{> hbs_include}}, http://dom.com/ of url(http://dom.com/)
 @support: @blue; // module of module.exports, color of color: rgb(0,0,0)
 @entity: @green; // exports of module.exports, <div id= of <div id="#id">, . of .className
