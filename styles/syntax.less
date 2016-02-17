@@ -91,6 +91,11 @@
   &.parameter.function {
     color: @function-param;
   }
+
+  &.list {
+    color: @list;
+    font-weight: bold;
+  }
 }
 
 .invalid {
@@ -420,7 +425,6 @@
 
 .markup {
   &.bold {
-    color: @heading;
     font-weight: bold;
   }
 
@@ -439,6 +443,7 @@
 
   &.heading .punctuation.definition.heading {
     color: @heading;
+    font-weight: bold;
   }
 
   &.inserted {
@@ -475,6 +480,10 @@
   &.underline {
     color: @underline;
     text-decoration: underline;
+  }
+  &.list {
+    color: @list;
+    font-weight: bold;
   }
 }
 
