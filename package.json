@@ -1,7 +1,7 @@
 {
   "name": "simotek-syntax",
   "theme": "syntax",
-  "version": "0.0.0.99.1",
+  "version": "0.0.99.1",
   "description": "Simotek Syntax - A dark colored theme for Atom.",
   "repository": "https://github.com/simotek/simotek-syntax",
   "license": "MIT",
