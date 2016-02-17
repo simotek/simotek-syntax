@@ -1,9 +1,9 @@
 {
-  "name": "seti-syntax",
+  "name": "simotek-syntax",
   "theme": "syntax",
-  "version": "0.4.1",
-  "description": "Seti Syntax - A subtle dark colored theme for Atom.",
-  "repository": "https://github.com/jesseweed/seti-syntax",
+  "version": "0.0.0.99.1",
+  "description": "Simotek Syntax - A dark colored theme for Atom.",
+  "repository": "https://github.com/simotek/simotek-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">1.0"

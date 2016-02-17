@@ -1,3 +1,6 @@
+## 0.0.99.1
+* Branch existing seti-syntax
+
 ## 0.4.1
 * Fix cursor position error
 
