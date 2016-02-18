@@ -18,5 +18,5 @@ Rather than hard coding a font I recommend installing one of the following all s
 ## Screenshots
 * TBD
 
-### palette
+### Palette
  ![Screenshot](https://raw.githubusercontent.com/simotek/simotek-syntax/master/palettes/FLAT-UI-COLOR-PALETTE-FOR-SKETCH-1.jpg)
